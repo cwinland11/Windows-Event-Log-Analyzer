@@ -1,0 +1,21 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Windows event logs
+*.evtx
+
+# Parsed event caches
+cache/
+
+# Generated forensic reports
+reports/*
+!reports/.gitkeep
+
+# Local development files
+.env
+.env.*
+*.log
+*_backup.py
